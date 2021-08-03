@@ -11,3 +11,53 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.container {
+    background-color: rgb(100, 99, 99);
+    max-width: 35rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 0.3rem;
+}
+h1 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-bottom: white solid 1px;
+}
+
+body {
+    color: white;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+li {
+    border-bottom: white solid 1px;
+    list-style-type: none;
+    text-align: start;
+    background-color: rgb(150, 146, 146);;
+    border-radius: 0.2rem;
+    margin-bottom: 0.3rem;
+    cursor: pointer;
+}
+li:hover {
+    border-bottom: white solid 1px;
+    list-style-type: none;
+    text-align: start;
+    background-color: rgb(82, 80, 80);;
+    border-radius: 0.2rem;
+    margin-bottom: 0.3rem;
+    cursor: pointer;
+}
+
+p {
+ margin-bottom: 0;
+ margin-left: 0.4rem;
+ padding-top: 0.3rem;
+ padding-bottom: 0.3rem;
+}
+ol {
+    margin-top:1rem;
+    padding: 0px;
+}
